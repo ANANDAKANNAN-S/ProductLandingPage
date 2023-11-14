@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+}
+
+.menu{
+    padding:10px;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr 1.5fr 2.5fr 0.5fr 0.5fr;
+}
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background-color: aliceblue;
+  }
+  
+  .custom-dropdown .dropdown-header {
+    cursor: pointer;
+  }
+  
+  .custom-dropdown .dropdown-options {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: yellow;
+    margin : 10 px;
+  }
+  
+  .custom-dropdown .dropdown-options  li:hover {
+    background-color: whitesmoke;
+    color : black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .custom-dropdown:hover .dropdown-options {
+    display: block;
+  }
+
+  .dropdown-header {
+    border: none;
+    appearance: none;
+    width: 100%;
+    color: white; 
+    background-color: black;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+  .dropdown-header:hover,
+.categories:focus {
+    background-color: black; 
+    cursor: pointer;
+}
+
+.dropdown-header option:hover {
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid;
+    box-shadow: inset 30px black;
+}
+.menu input[type="text"] {
+    padding-right: 35px;
+    margin-left: 30px;
+    margin-top: 27px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 60%); 
+    color:white;
+    background-color: black; 
+    border: black;
+    appearance: none;
+    box-sizing: border-box;
+}
+.menu img.search {
+    margin-top: 25px;
+}
+.menu img.logo {
+    margin-top: 10px;
+}
+.menu img.login {
+    margin-top: 11px;
+}
+.custom-dropdown .dropdown-header {
+    cursor: pointer;
+    padding: 3px ; 
+}
+input[type="text"]::placeholder {
+    color: #999;
+}
+
+
+input[type="text"]:hover {
+    border-color: #555;
+}
+
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.f{
+    padding:10px;
+    background-color: black;
+    display:grid;
+    grid-template-columns: 10fr 200fr 5fr;
+    
+}
+.buds{
+    padding:10px;
+    background-color: black;
+    display:grid;
+    grid-template-columns: 400px 400px 400px  ;
+    gap:70px;
+}
+.final{
+    padding:10px;
+    background-color: white;
+    display:grid;
+    grid-template-columns:  10fr 5fr 15fr ;
+    
+}
